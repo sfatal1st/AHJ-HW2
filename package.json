@@ -8,7 +8,6 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
   "author": "coursar",
