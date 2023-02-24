@@ -18,7 +18,7 @@ export default class GamePlay {
   }
 
   redrawPosition() {
-    let position = Math.floor(Math.random() * (this.boardSize ** 2));
+    let position = Math.floor(Math.random() * (this.boardSize * this.boardSize));
     for (const cell of this.cells) {
       cell.innerHTML = ``;
     }
