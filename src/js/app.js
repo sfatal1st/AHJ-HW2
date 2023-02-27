@@ -1,5 +1,5 @@
-import GamePlay from './gamePlay';
+import GamePlay from "./gamePlay";
 
 const play = new GamePlay();
 play.init();
-setInterval(() => play.redrawPosition(), 1500);
+setInterval(() => play.redrawPosition(), 1000);
